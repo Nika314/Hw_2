@@ -7,7 +7,6 @@
 # 2
 
 import random
-
 amountCoin = int(input('Введите число монет: '))
 coins = [random.randint(0,1) for _ in range(amountCoin)]
 # 1 - решка, 0 - герб
